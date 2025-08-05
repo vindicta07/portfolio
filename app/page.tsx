@@ -7,6 +7,10 @@ import teamraw from "../public/TEAM_RAW_LOGO.png"
 import leetcode from "../public/icons8-leetcode-96.png"
 import emblem from "../public/Emblem.png"
 import freshness from "../public/freshness.jpg"
+import adobeLogo from "../public/Adobe_Logo.png"
+import flipkartLogo from "../public/Flipkart_Logo.png"
+import synthMusic from "../public/SynthMusic.jpg"
+import browserAIAgents from "../public/Browser_AI_Agents.svg"
 
 export default function Home() {
   return (
@@ -162,13 +166,13 @@ function IdeasSection() {
     {
       title: "PDF Intelligence Engine - Adobe India Hackathon 2025",
       description: "Advanced document processing system with persona-driven intelligence for intelligent PDF analysis and manipulation using AI/ML techniques.",
-      image: "/Adobe_Logo.png",
+      image: adobeLogo,
       githubLink: "https://github.com/vindicta07/adobe-hackathon-pdf-engine"
     },
     {
       title: "FlipCheck - Flipkart Grid 6.0 Hackathon",
       description: "A AI-powered freshness detection system for real-time detection of expired products in retail stores.",
-      image: "/Flipkart_Logo.png",
+      image: flipkartLogo,
       githubLink: "https://github.com/DeepRock-Dev/FlipCheck"
     },
     {
@@ -180,13 +184,13 @@ function IdeasSection() {
     {
       title: "SynthMusic - GestureCap",
       description: "Innovative system that converts human movements and gestures into music, bridging the gap between physical motion and audio creation.",
-      image: "/SynthMusic.jpg",
+      image: synthMusic,
       githubLink: "https://github.com/vindicta07/SynthMusic"
     },
     {
       title: "Browser AI Agents",
       description: "A browser extension that allows users to create and manage AI agents for various tasks, enhancing productivity and automation.",
-      image: "/Browser_AI_Agents.svg",
+      image: browserAIAgents,
       githubLink: "https://github.com/vindicta07/travel-concierge-agent",
     },
     {
